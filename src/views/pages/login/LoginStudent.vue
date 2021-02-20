@@ -33,11 +33,11 @@
       <vs-button  type="border" @click="registerUser">Register</vs-button>
       <vs-button :disabled="!validateForm" @click="LoginStudent">Login</vs-button>
     </div>
-    <vs-divider></vs-divider>
+    <!-- <vs-divider></vs-divider>
     <div class="alert alert-danger">
       1.初始密码均为身份证号码后六位<br/>
       2.登陆系统后，请维护好邮箱信息，若密码忘记可通过邮箱找回
-    </div>
+    </div> -->
   </div>
 </template>
 
