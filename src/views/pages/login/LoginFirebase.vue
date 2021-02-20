@@ -26,8 +26,8 @@
     <span class="text-danger text-sm">{{ errors.first('password') }}</span>
 
     <div class="flex flex-wrap justify-between my-5">
-        <vs-checkbox v-model="checkbox_remember_me" class="mb-3">Remember Me</vs-checkbox>
-        <router-link to="/pages/forgot-password">Forgot Password?</router-link>
+        <vs-checkbox v-model="checkbox_remember_me" class="mb-3">记住我</vs-checkbox>
+        <router-link to="/pages/forgot-password">忘记密码?</router-link>
     </div>
     <vs-button  type="border" @click="registerUser">Register</vs-button>
     <vs-button class="float-right" :disabled="!validateForm" @click="login">Login</vs-button>
