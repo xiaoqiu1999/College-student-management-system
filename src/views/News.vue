@@ -51,6 +51,7 @@
           icon="UsersIcon"
           :statistic="checkpointReward.department"
           :statisticTitle="checkpointReward.major"
+          :studentId="checkpointReward.studentId"
           :chartData="subscribersGained.series"
           type="area"
         ></statistics-card-line>

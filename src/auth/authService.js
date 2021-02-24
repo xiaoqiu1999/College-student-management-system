@@ -53,9 +53,10 @@ class AuthService extends EventEmitter {
       this.tokenExpiry = new Date(this.profile.exp * 1000)
       localStorage.setItem(tokenExpiryKey, this.tokenExpiry)
       localStorage.setItem(localStorageKey, 'true')
-
+      // 登录成功后存入的用户信息
       store.commit('UPDATE_USER_INFO', {
         displayName: this.profile.name,
+        major:this.profile.major,
         email: this.profile.email,
         photoURL: this.profile.picture,
         providerId: this.profile.sub.substr(0, this.profile.sub.indexOf('|')),

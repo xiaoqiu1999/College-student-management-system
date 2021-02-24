@@ -2,18 +2,21 @@ import mock from '@/fake-db/mock.js'
 import jwt from 'jsonwebtoken'
 
 const data = {
+  // 通知消息页面个人数据
   checkpointReward: {
     userName: '晓晓',
     identity: '同学',
     progress: '2',
     department: '自动化学院',
     major: '测控1701',
+    studentId: '06172022',
   },
   users: [
     {
       uid: 34,
       studentId: '06172022',
-      displayName: 'Howard Potts',
+      major:'测控1701',
+      displayName: '周杰伦',
       password: 'adminadmin',
       photoURL: require('@/assets/images/portrait/small/avatar-s-5.jpg'),
       email: 'admin@admin.com',
@@ -28,7 +31,7 @@ const jwtConfig = {
   'expireTime': 8000
 }
 
-
+// 登录请求
 mock.onPost('/api/auth/login').reply((request) => {
   const {email, password} = JSON.parse(request.data)
 
