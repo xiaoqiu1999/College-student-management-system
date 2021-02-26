@@ -690,7 +690,7 @@ export default {
         sparkline: {
         }
       },
-      labels: ['Completed Tickets']
+      labels: ['已阅读消息百分比']
     }
   },
   // RADAR

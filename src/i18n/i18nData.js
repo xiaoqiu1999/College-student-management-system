@@ -261,7 +261,7 @@ export default {
   de: {
     Dashboard: 'Instrumententafel',
     eCommerce: 'eCommerce',
-    Apps: 'Apps',
+    apps: 'apps',
     Todo: 'Machen',
     Chat: 'Plaudern',
     Email: 'Email',
@@ -519,7 +519,7 @@ export default {
   pt: {
     Dashboard: 'painel de controle',
     eCommerce: 'comércio eletrônico',
-    Apps: 'APPS',
+    apps: 'apps',
     Todo: 'Façam',
     Chat: 'Bate-papo',
     Email: 'O email',

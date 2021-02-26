@@ -7,7 +7,7 @@ import './data/data-list/index.js'
 import './data/user-management/index.js'
 import './data/user/index.js'
 
-// Apps
+// apps
 import './data/apps/index.js'
 
 mock.onAny().passThrough() // forwards the matched request over network
