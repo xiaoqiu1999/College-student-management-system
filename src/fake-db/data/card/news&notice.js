@@ -81,14 +81,13 @@ const data = {
   },
   message: {
     analyticsData: {
-      openTickets: 163,
+      allTickets: 100,
       meta: {
-        "New Tickets": 29,
-        "Open Tickets": 63,
-        "Response Time": "1d"
+        newMessage: 29,
+        completedMessage: 80,
+        unreadMessage:20
       }
     },
-    series: [83]
   },
   revenueComparisonLine: {
     analyticsData: {
@@ -126,116 +125,114 @@ const data = {
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
-
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
-
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
 
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
 
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         },
         {
           url: "http://xupt.edu.cn/",
           description: "关于2021届毕业生图像信息采集工作的通知",
-          time: '2021.01.14'
+          time: "2021.01.14"
         }
       ],
       comparison: {

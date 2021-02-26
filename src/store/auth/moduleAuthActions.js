@@ -103,7 +103,7 @@ export default {
         // just reload the page to get fresh data
         // set new user data in localstorage
         if (!isUsernameUpdateRequired) {
-          router.push(router.currentRoute.query.to || '/')
+          router.push(router.currentRoute.query.to || '/home/news')
           commit('UPDATE_USER_INFO', result.user.providerData[0], {root: true})
         }
       }, (err) => {
@@ -138,7 +138,7 @@ export default {
 
     firebase.auth().signInWithPopup(provider)
       .then((result) => {
-        router.push(router.currentRoute.query.to || '/')
+        router.push(router.currentRoute.query.to || '/home/news')
         commit('UPDATE_USER_INFO', result.user.providerData[0], {root: true})
       }).catch((err) => {
         payload.notify({
@@ -198,7 +198,7 @@ export default {
 
     firebase.auth().signInWithPopup(provider)
       .then((result) => {
-        router.push(router.currentRoute.query.to || '/')
+        router.push(router.currentRoute.query.to || '/home/news')
         commit('UPDATE_USER_INFO', result.user.providerData[0], {root: true})
       }).catch((err) => {
         payload.notify({
@@ -228,7 +228,7 @@ export default {
 
     firebase.auth().signInWithPopup(provider)
       .then((result) => {
-        router.push(router.currentRoute.query.to || '/')
+        router.push(router.currentRoute.query.to || '/home/news')
         commit('UPDATE_USER_INFO', result.user.providerData[0], {root: true})
       }).catch((err) => {
         payload.notify({
@@ -284,7 +284,7 @@ export default {
       // If reload is required to get fresh data after update
       // Reload current page
       if (payload.isReloadRequired) {
-        router.push(router.currentRoute.query.to || '/')
+        router.push(router.currentRoute.query.to || '/home/news')
       }
     }).catch((err) => {
       payload.notify({
@@ -309,7 +309,7 @@ export default {
           // If there's user data in response
           if (response.data.userData) {
             // Navigate User to homepage
-            router.push(router.currentRoute.query.to || '/')
+            router.push(router.currentRoute.query.to || '/home/news')
 
             // Set accessToken
             localStorage.setItem('accessToken', response.data.accessToken)
@@ -343,7 +343,7 @@ export default {
       jwt.registerUser(displayName, studentNumber, password)
         .then(response => {
           // Redirect User
-          router.push(router.currentRoute.query.to || '/')
+          router.push(router.currentRoute.query.to || '/home/news')
 
           // Update data in localStorage
           localStorage.setItem('accessToken', response.data.accessToken)
